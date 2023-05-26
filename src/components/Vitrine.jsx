@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react'
-// import './Vitrine.scss'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+import './Vitrine.scss'
 
 import Axios from "axios";
 
@@ -17,16 +23,22 @@ const Vitrine = props => {
 
     return (
 
-        <div>
+        <div >
+            <Swiper
+                slidesPerView={4}
+                className="vitrine"
+                modules={[Navigation]}
+                navigation
+            >
             {dados.map((item) => (
-                <div key="item.productName">
-                    <p>{item.productName}</p>
-                    <p>{item.descriptionShort} </p>
+                <SwiperSlide key="item.productName">
+                    <h3>{item.productName}</h3>
                     <img src={item.photo} />
+                    <p>{item.descriptionShort} </p>
                     <p>{item.price} </p>
-                </div>
+                </SwiperSlide>
             ))}
-               
+            </Swiper>
         </div>
 
     )
