@@ -1,0 +1,51 @@
+@import '../Style';
+
+.parceiros {
+    @include container;
+    justify-content: space-between;
+    margin: 71px auto 61px auto;
+}
+
+.bg {
+    background-image: url(../img/parceiros.png);
+    border-radius: 20px;
+}
+
+.bg div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    height: 350px;
+    width: 574px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+
+.parceiros h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: $branco;
+}
+
+.parceiros p {
+    font-weight: 400;
+    color: $branco;
+    width: 181px;
+}
+
+.parceiros a {
+    margin: 32px 0 40px 0;
+    border-radius: 10px;
+    background-color: $rosa;
+    padding: 12px 24px;
+    width: 131px;
+    color: $branco;
+    font-weight: 900;
+    text-align: center;
+}

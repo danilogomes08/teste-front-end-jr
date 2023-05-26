@@ -38,7 +38,6 @@ const Main = _ => {
                 <Categorias img={esportes} categoria="Esportes e Fitness"/>
                 <Categorias img={moda} categoria="Moda"/>
             </section>
-
   
 
         </main>

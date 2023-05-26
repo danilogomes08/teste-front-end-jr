@@ -1,11 +1,17 @@
 $cinza-escuro: #9F9F9F;
+$cinza-intermediario: #BDBDBD;
 $cinza-claro: #F0F0F0;
 $cinza2: #F4F4F4;
+$cinza3: #C0C0C0;
 $rosa: #F71963;
 $branco: #fff;
 $preto: #4E4E4E;
+$preto2: #3B3B3B;
+$preto3: #3F3F40;
+$preto4: #2A2A2A;
 
 @mixin container {
     max-width: 1280px;
     display: flex;
+    flex-wrap: wrap;
 }

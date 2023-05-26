@@ -7,7 +7,6 @@ h1 {
     color: $branco;
     line-height: 72px;
     margin-left: 90px;
-
 }
 
 .background p {
@@ -28,7 +27,8 @@ h1 {
 
 .background {
     background-image: url(../img/promocoes.png);
-
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main button {

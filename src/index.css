@@ -6,4 +6,5 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Poppins';
+    box-sizing: border-box;
 }
