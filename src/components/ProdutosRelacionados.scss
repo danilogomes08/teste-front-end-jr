@@ -1,0 +1,51 @@
+@import '../Style';
+
+
+.produtos-relacionados {
+    @include container;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.produtos-relacionados h2 {
+    font-size: 1.87rem;
+    text-align: center;
+    color: $rosa;
+    font-weight: 700;
+}
+
+.produtos-relacionados nav {
+    @include container;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-categorias {
+    flex: 1;
+    font-weight: 400;
+    padding: 6px 0;
+    border: 1px solid $cinza-intermediario;
+    text-align: center;
+    &:not(.sub-categorias:last-child) {
+        border-right-width: 0;
+    }
+}
+
+.sub-categorias a {
+    color: $preto2;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+    &:hover {
+        font-weight: 700;
+        color: $rosa;
+    }
+}
+
+.produtos-relacionados > a {
+    font-size: 0.93rem;
+    font-weight: 700;
+    color: $preto3;
+    text-align: center;
+}
+

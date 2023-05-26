@@ -1,0 +1,109 @@
+@import '../Style';
+
+header {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header span {
+    color: $rosa;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+hr {
+    border: 1px solid $cinza-claro;
+}
+
+.header-top {
+    @include container;
+    justify-content: center;
+    height: 32px;
+    align-items: center;
+    font-size: 0.75rem;
+    color: $cinza-escuro;
+    font-weight: 500;
+}
+
+.header-top div {
+    @include container;
+    align-items: center;
+}
+
+.header-top div:nth-child(2) {
+    padding: 0 120px;
+}
+
+.header-top img {
+    margin-right: 5px
+}
+
+.header-middle {
+    @include container;
+    justify-content: space-around;
+    height: 72px;
+    align-items: center;
+}
+
+.header-middle div {
+    align-items: center;
+    display: flex;
+}
+
+header input {
+    width: 616px;
+    height: 48px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    background-color: #F7F5F2;
+    outline: none;
+    padding-left: 25px;
+}
+
+header input::placeholder {
+    font-weight: 500;
+    color: $cinza-escuro;
+    font-size: 14px;
+}
+
+header button {
+    height: 48px;
+    background-color: #F7F5F2;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+header nav {
+    max-width: 1280px;
+    box-shadow: 0px 8px 16px rgba(57, 48, 19, 0.12);
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+header a {
+    font-size: 0.75rem;
+    color: $cinza-escuro;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+    &:hover {
+        color: $rosa;
+    }
+}
+
+header li:last-child {
+    display: flex;
+    align-items: center;
+}
+
+header li:last-child a {
+    margin-left: 13px
+}
+

@@ -1,0 +1,49 @@
+@import '../Style';
+
+h1 {
+    max-width: 822px;
+    font-size: 3rem;
+    font-weight: 600;
+    color: $branco;
+    line-height: 72px;
+    margin-left: 90px;
+}
+
+.background p {
+    font-size: 2.25rem;
+    color: $branco;
+    margin-left: 90px;
+}
+
+.background div {
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, 
+    #000000 85.04%); 
+    opacity: 0.8;
+}
+
+.background {
+    background-image: url(../img/promocoes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main button {
+    max-width: 227px;
+    background-color: $rosa;
+    font-weight: 600;
+    font-size: 1,12rem;
+    color: $branco;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+
+.categorias {
+    @include container;
+    justify-content: space-between;
+    margin: 34px auto 40px auto;
+}

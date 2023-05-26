@@ -1,0 +1,30 @@
+@import '../Style';
+
+.marcas {
+    margin: 155px 0 104px 0;
+}
+
+.marcas h2 {
+    margin-bottom: 60px;
+    font-weight: 700;
+    color: $rosa;
+    text-align: center;
+    font-size: 1.87rem;
+}
+
+.marcas nav {
+    @include container;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.marcas nav div {
+    border-radius: 100%;
+    width: 211px;
+    height: 211px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.13);
+}
