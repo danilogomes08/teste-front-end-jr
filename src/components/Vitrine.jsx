@@ -23,19 +23,29 @@ const Vitrine = props => {
 
     return (
 
-        <div >
+                
+        <div className="vitrine">
             <Swiper
                 slidesPerView={4}
-                className="vitrine"
                 modules={[Navigation]}
                 navigation
             >
             {dados.map((item) => (
-                <SwiperSlide key="item.productName">
-                    <h3>{item.productName}</h3>
-                    <img src={item.photo} />
-                    <p>{item.descriptionShort} </p>
-                    <p>{item.price} </p>
+                <SwiperSlide 
+                    key="item.productName"
+                    
+                >
+                    <div className="itemVintrine">
+                        <h3>{item.productName}</h3>
+                        <img src={item.photo} />
+                        <p>{item.descriptionShort} </p>
+                        <p> R$ 30,90</p>
+                        <p>R$ {item.price} </p>
+                        <p>ou 2x de R$ 49,95 sem juros</p>
+                        <p>Frete grátis</p>
+                        <a href="#"> comprar </a>
+                    </div>
+
                 </SwiperSlide>
             ))}
             </Swiper>
