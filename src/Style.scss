@@ -16,3 +16,15 @@ $preto4: #2A2A2A;
     display: flex;
     flex-wrap: wrap;
 }
+
+@mixin device($size) {
+    @media screen and (max-width: $size) {
+        @content;
+    }
+}
+
+@mixin vitrine($size) {
+    @media screen and (min-width: $size) {
+        @content;
+    }
+}

@@ -12,13 +12,22 @@ import seguranca from '../img/seguranca.png'
 import logo from '../img/logo-vtex.png'
 import busca from '../img/busca.png'
 import coroa from '../img/coroa.png'
-
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = _ => {
 
+    const navRef = useRef();
+
+	const showNavbar = () => {
+		navRef.current.classList.toggle(
+			"responsive_nav"
+		);
+	};
+
     return (
         <header>
-            <div class="header-top">
+            <div className="header-top">
                 <div>
                     <img src={seguranca} alt="" />
                     <p>Compra <span> 100% segura </span></p>
@@ -37,10 +46,10 @@ const Header = _ => {
 
             <hr />
 
-            <div class="header-middle">
+            <div className="header-middle">
                 <img src={logo} alt="" />
 
-                <div>
+                <div className="pesquisa">
                     <input 
                         placeholder="O que você está buscando?"
                         type="text"
@@ -67,34 +76,42 @@ const Header = _ => {
                 </a>
             </div>
 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#"> Todas Categorias </a>
-                    </li>
-                    <li>
-                        <a href="#"> Supermercado </a>
-                    </li>
-                    <li>
-                        <a href="#"> Livros </a>
-                    </li>
-                    <li>
-                        <a href="#"> Moda </a>
-                    </li>
-                    <li>
-                        <a href="#"> Lançamentos </a>
-                    </li>
-                    <li>
-                        <a href="#"> Ofertas do dia </a>
-                    </li>
-                    <li>
-                        <img src={coroa} alt="" />
-                        <a href="#"> 
-                             Assinatura 
-                        </a>
-                    </li>
-                </ul>
+            <nav ref={navRef} className="nav">
+                
+                    <a href="#"> Todas Categorias </a>
+                
+            
+                    <a href="#"> Supermercado </a>
+                
+            
+                    <a href="#"> Livros </a>
+                
+            
+                    <a href="#"> Moda </a>
+                
+            
+                    <a href="#"> Lançamentos </a>
+                
+            
+                    <a href="#"> Ofertas do dia </a>
+                
+                <div>
+                    <img src={coroa} alt="" />
+                    <a href="#"> 
+                            Assinatura 
+                    </a>
+                </div>
+				<button
+					className="nav-btn nav-close-btn"
+					onClick={showNavbar}>
+					<FaTimes />
+				</button>
             </nav>
+            <button
+				className="nav-btn"
+				onClick={showNavbar}>
+				<FaBars />
+			</button>
         </header>
     )
 }

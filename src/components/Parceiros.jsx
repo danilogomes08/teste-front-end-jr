@@ -5,12 +5,12 @@ const Parceiros = props => {
 
     return (
 
-        <section class="parceiros">
+        <section className="parceiros">
 
-            <div class="bg">
+            <div className="bg">
                 <div>
                     <h2> 
-                        Produtos 
+                        Parceiros 
                     </h2>
                     <p>
                         Lorem ipsum dolor sit
@@ -22,10 +22,10 @@ const Parceiros = props => {
                 </div>
             </div>  
 
-            <div class="bg">
+            <div className="bg">
                 <div>
                     <h2> 
-                        Produtos 
+                        Parceiros 
                     </h2>
                     <p>
                         Lorem ipsum dolor sit

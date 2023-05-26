@@ -17,13 +17,11 @@ import econverse from '../img/econverse.png'
 import vtexfooter from '../img/vtex-footer.png'
 
 
-
-
 const Footer = props => {
 
     return (
         <footer>
-            <div class="footer-container">
+            <div className="footer-container">
                 <div>
                     <h2>
                         Sobre nós
@@ -36,7 +34,7 @@ const Footer = props => {
                         </ul>
                     </nav>
 
-                    <div class="social">
+                    <div className="social">
                         <div>
                             <img src={facebook}   />
                         </div>
@@ -73,7 +71,7 @@ const Footer = props => {
                         FORMAS DE PAGAMENTO
                     </h2>
 
-                    <div class="pagamentos">
+                    <div className="pagamentos">
                         <div>
                             <img src={visa} />
                             <img src={elo} />
@@ -95,7 +93,7 @@ const Footer = props => {
                     </div>
                 </div>
 
-                <div class="newsletter">
+                <div className="newsletter">
                     <h2>
                         Cadastre-se e Receba nossas
                         <span> novidades e promoções </span>
@@ -104,7 +102,7 @@ const Footer = props => {
                         Excepteur sint occaecat cudatat non ent, sunt in 
                         culpa qui officia lorem ipsum
                     </p>
-                    <div class="form">
+                    <div className="form">
                         <input 
                             placeholder="Seu e-mail"
                             type="text"
@@ -118,7 +116,7 @@ const Footer = props => {
 
             <hr />
 
-            <div class="copyright">
+            <div className="copyright">
                 <p>
                     Copyright © 2019. Todos os direitos reservados. Todas as marcas e suas imagens são de propriedade de seus respectivos donos.  
                     É vedada a reprodução, total ou parcial, de qualquer conteúdo sem expressa autorização.

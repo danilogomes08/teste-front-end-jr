@@ -29,11 +29,30 @@ const Vitrine = props => {
                 slidesPerView={4}
                 modules={[Navigation]}
                 navigation
+                className="swiper-container"
+                breakpoints={{
+                    320: {
+                      width: 320,
+                      slidesPerView: 1,
+                    },
+                    640: {
+                        width: 640,
+                        slidesPerView: 2,
+                      },
+                      960: {
+                        width: 960,
+                        slidesPerView: 3,
+                      },
+                    1280: {
+                      width: 1280,
+                      slidesPerView: 4,
+                    },
+                  }}
             >
             {dados.map((item) => (
                 <SwiperSlide 
                     key="item.productName"
-                    
+  
                 >
                     <div className="itemVintrine">
                         <h3>{item.productName}</h3>

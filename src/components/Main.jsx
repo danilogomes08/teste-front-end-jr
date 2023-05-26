@@ -14,7 +14,7 @@ const Main = _ => {
 
     return (
         <main>
-            <div class="background">
+            <div className="background">
                 <div>
                     <h1> 
                         Venha conhecer nossas 
@@ -23,13 +23,13 @@ const Main = _ => {
                     <p> 
                         50% Off nos produtos 
                     </p>
-                    <button>
+                    <a>
                         Ver produto
-                    </button>
+                    </a>
                 </div>
             </div>
 
-            <section class="categorias">
+            <section className="categorias">
                 <Categorias img={tecnologia} categoria="Teconogia"/>
                 <Categorias img={supermercados} categoria="Supermercado"/>
                 <Categorias img={bebidas} categoria="Bebidas"/>
@@ -38,7 +38,6 @@ const Main = _ => {
                 <Categorias img={esportes} categoria="Esportes e Fitness"/>
                 <Categorias img={moda} categoria="Moda"/>
             </section>
-  
 
         </main>
 

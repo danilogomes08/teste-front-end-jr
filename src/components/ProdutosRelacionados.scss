@@ -23,12 +23,16 @@
 
 .sub-categorias {
     flex: 1;
+    flex-wrap: wrap;
     font-weight: 400;
     padding: 6px 0;
     border: 1px solid $cinza-intermediario;
     text-align: center;
     &:not(.sub-categorias:last-child) {
         border-right-width: 0;
+    }
+    @include device(800px) {
+        display: none;
     }
 }
 

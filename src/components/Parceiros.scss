@@ -9,23 +9,30 @@
 .bg {
     background-image: url(../img/parceiros.png);
     border-radius: 20px;
-}
-
-.bg div {
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-left: 40px;
-    height: 350px;
-    width: 574px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%);
-    mix-blend-mode: normal;
-    opacity: 0.8;
-    border-radius: 20px;
-}
-
+    @include device(800px) {
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0 20px 20px 20px;
+    }
+    & div {
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        height: 350px;
+        width: 574px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 85.04%);
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        border-radius: 20px;
+        @include device(800px) {
+            width: 100%;
+            flex-wrap: wrap;
+        }
+    }
+} 
 
 .parceiros h2 {
     font-weight: 700;
