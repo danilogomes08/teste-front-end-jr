@@ -30,13 +30,13 @@ const Main = _ => {
             </div>
 
             <section className="categorias">
-                <Categorias img={tecnologia} categoria="Teconogia"/>
-                <Categorias img={supermercados} categoria="Supermercado"/>
-                <Categorias img={bebidas} categoria="Bebidas"/>
-                <Categorias img={ferramentas} categoria="Ferramentas"/>
-                <Categorias img={saude} categoria="Saúde"/>
-                <Categorias img={esportes} categoria="Esportes e Fitness"/>
-                <Categorias img={moda} categoria="Moda"/>
+                <Categorias link="#" img={tecnologia} categoria="Teconogia"/>
+                <Categorias link="#" img={supermercados} categoria="Supermercado"/>
+                <Categorias link="#" img={bebidas} categoria="Bebidas"/>
+                <Categorias link="#" img={ferramentas} categoria="Ferramentas"/>
+                <Categorias link="#" img={saude} categoria="Saúde"/>
+                <Categorias link="#" img={esportes} categoria="Esportes e Fitness"/>
+                <Categorias link="#" img={moda} categoria="Moda"/>
             </section>
 
         </main>

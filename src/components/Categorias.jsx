@@ -10,9 +10,9 @@ const Categorias = props => {
                     <img src={props.img} alt="" />
                 </div>
 
-                <p>
+                <a href={props.link}>
                     {props.categoria}
-                </p>
+                </a>
             </div>
 
     )
