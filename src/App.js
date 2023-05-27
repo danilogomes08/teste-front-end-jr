@@ -1,9 +1,9 @@
-import Header from './components/Header'
-import Main from './components/Main'
-import ProdutosRelacionados from './components/ProdutosRelacionados'
-import Parceiros from './components/Parceiros'
-import Marcas from './components/Marcas'
-import Footer from './components/Footer'
+import Header from './components/Header/Header'
+import Main from './components/Main/Main'
+import ProdutosRelacionados from './components/ProdutosRelacionados/ProdutosRelacionados'
+import Parceiros from './components/Parceiros/Parceiros'
+import Marcas from './components/Marcas/Marcas'
+import Footer from './components/Footer/Footer'
 
 
 

@@ -1,14 +1,14 @@
 import React from 'react'
 import './Main.scss'
-import Categorias from './Categorias';
+import Categorias from './Categorias/Categorias';
 
-import tecnologia from '../img/tecnologia.svg'
-import supermercados from '../img/supermercados.svg'
-import bebidas from '../img/bebidas.svg'
-import ferramentas from '../img/ferramentas.svg'
-import saude from '../img/saude.svg'
-import esportes from '../img/esportes.svg'
-import moda from '../img/moda.svg'
+import tecnologia from '../../img/tecnologia.svg'
+import supermercados from '../../img/supermercados.svg'
+import bebidas from '../../img/bebidas.svg'
+import ferramentas from '../../img/ferramentas.svg'
+import saude from '../../img/saude.svg'
+import esportes from '../../img/esportes.svg'
+import moda from '../../img/moda.svg'
 
 const Main = _ => {
 

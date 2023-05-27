@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProdutosRelacionados.scss'
-import Vitrine from './Vitrine'
+import Vitrine from './Vitrine/Vitrine'
 
 const ProdutosRelacionados = props => {
 

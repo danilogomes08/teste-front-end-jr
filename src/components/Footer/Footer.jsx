@@ -1,20 +1,20 @@
 import React from 'react'
 import './Footer.scss'
-import facebook from '../img/facebook.png'
-import instagram from '../img/instagram.png'
-import youtube from '../img/youtube.png'
-import elo from '../img/elo.png'
-import dinners from '../img/dinners.png'
-import american from '../img/american.png'
-import ifood from '../img/ifood.png'
-import master from '../img/master.png'
-import pix from '../img/pix.png'
-import sodexo from '../img/sodexo.png'
-import visa from '../img/visa.png'
-import ticket from '../img/ticket.png'
-import alelo from '../img/alelo.png'
-import econverse from '../img/econverse.png'
-import vtexfooter from '../img/vtex-footer.png'
+import facebook from '../../img/facebook.png'
+import instagram from '../../img/instagram.png'
+import youtube from '../../img/youtube.png'
+import elo from '../../img/elo.png'
+import dinners from '../../img/dinners.png'
+import american from '../../img/american.png'
+import ifood from '../../img/ifood.png'
+import master from '../../img/master.png'
+import pix from '../../img/pix.png'
+import sodexo from '../../img/sodexo.png'
+import visa from '../../img/visa.png'
+import ticket from '../../img/ticket.png'
+import alelo from '../../img/alelo.png'
+import econverse from '../../img/econverse.png'
+import vtexfooter from '../../img/vtex-footer.png'
 
 
 const Footer = props => {
@@ -36,15 +36,21 @@ const Footer = props => {
 
                     <div className="social">
                         <div>
-                            <img src={facebook}   />
+                            <a href="#">
+                                <img src={facebook}   />
+                            </a>
                         </div>
 
                         <div>
-                            <img src={instagram}   />
+                            <a href="#">
+                                <img src={instagram}   />
+                            </a>
                         </div>
 
                         <div>
-                            <img src={youtube}   />
+                            <a href="#">
+                                <img src={youtube}   />
+                            </a>
                         </div>
                     </div>
 

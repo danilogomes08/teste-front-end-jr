@@ -1,4 +1,4 @@
-@import '../Style';
+@import '../../Style';
 
 .parceiros {
     @include container;
@@ -7,7 +7,7 @@
 }
 
 .bg {
-    background-image: url(../img/parceiros.png);
+    background-image: url(../../img/parceiros.png);
     border-radius: 20px;
     @include device(800px) {
         width: 100%;

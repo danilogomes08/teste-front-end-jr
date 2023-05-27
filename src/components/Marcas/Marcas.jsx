@@ -1,6 +1,6 @@
 import React from 'react'
 import './Marcas.scss'
-import marca from '../img/marca.png'
+import marca from '../../img/marca.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';

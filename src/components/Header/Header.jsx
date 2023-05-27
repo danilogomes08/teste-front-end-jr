@@ -1,17 +1,17 @@
 import React from 'react'
 import './Header.scss'
 
-import pedidos from '../img/pedidos.png'
-import carrinho from '../img/carrinho.png'
-import cartao from '../img/cartao-credito.png'
-import conta from '../img/conta.png'
-import favoritos from '../img/favoritos.png'
-import frete from '../img/frete.png'
-import promocoes from '../img/promocoes.png'
-import seguranca from '../img/seguranca.png'
-import logo from '../img/logo-vtex.png'
-import busca from '../img/busca.png'
-import coroa from '../img/coroa.png'
+import pedidos from '../../img/pedidos.png'
+import carrinho from '../../img/carrinho.png'
+import cartao from '../../img/cartao-credito.png'
+import conta from '../../img/conta.png'
+import favoritos from '../../img/favoritos.png'
+import frete from '../../img/frete.png'
+import promocoes from '../../img/promocoes.png'
+import seguranca from '../../img/seguranca.png'
+import logo from '../../img/logo-vtex.png'
+import busca from '../../img/busca.png'
+import coroa from '../../img/coroa.png'
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
