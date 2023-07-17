@@ -21,7 +21,7 @@ const Footer = props => {
 
     return (
         <footer>
-            <div className="footer-container">
+            <div className="Footer-container">
                 <div>
                     <h2>
                         Sobre nós
@@ -34,7 +34,7 @@ const Footer = props => {
                         </ul>
                     </nav>
 
-                    <div className="social">
+                    <div className="Social">
                         <div>
                             <a href="#">
                                 <img src={facebook}   />
@@ -77,7 +77,7 @@ const Footer = props => {
                         FORMAS DE PAGAMENTO
                     </h2>
 
-                    <div className="pagamentos">
+                    <div className="Pagamentos">
                         <div>
                             <img src={visa} />
                             <img src={elo} />
@@ -99,7 +99,7 @@ const Footer = props => {
                     </div>
                 </div>
 
-                <div className="newsletter">
+                <div className="Newsletter">
                     <h2>
                         Cadastre-se e Receba nossas
                         <span> novidades e promoções </span>
@@ -108,7 +108,7 @@ const Footer = props => {
                         Excepteur sint occaecat cudatat non ent, sunt in 
                         culpa qui officia lorem ipsum
                     </p>
-                    <div className="form">
+                    <div className="Form">
                         <input 
                             placeholder="Seu e-mail"
                             type="text"
@@ -122,7 +122,7 @@ const Footer = props => {
 
             <hr />
 
-            <div className="copyright">
+            <div className="Copyright">
                 <p>
                     Copyright © 2019. Todos os direitos reservados. Todas as marcas e suas imagens são de propriedade de seus respectivos donos.  
                     É vedada a reprodução, total ou parcial, de qualquer conteúdo sem expressa autorização.

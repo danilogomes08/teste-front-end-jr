@@ -1,12 +1,32 @@
 @import '../../Style';
 
-.parceiros {
+.Parceiros {
     @include container;
     justify-content: space-between;
     margin: 71px auto 61px auto;
+    & h2 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: $branco;
+    }
+    & p {
+        font-weight: 400;
+        color: $branco;
+        width: 181px;
+    }
+    & a {
+        margin: 32px 0 40px 0;
+        border-radius: 10px;
+        background-color: $rosa;
+        padding: 12px 24px;
+        width: 131px;
+        color: $branco;
+        font-weight: 900;
+        text-align: center;
+    }
 }
 
-.bg {
+.Bg {
     background-image: url(../../img/parceiros.png);
     border-radius: 20px;
     @include device(800px) {
@@ -33,26 +53,3 @@
         }
     }
 } 
-
-.parceiros h2 {
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: $branco;
-}
-
-.parceiros p {
-    font-weight: 400;
-    color: $branco;
-    width: 181px;
-}
-
-.parceiros a {
-    margin: 32px 0 40px 0;
-    border-radius: 10px;
-    background-color: $rosa;
-    padding: 12px 24px;
-    width: 131px;
-    color: $branco;
-    font-weight: 900;
-    text-align: center;
-}

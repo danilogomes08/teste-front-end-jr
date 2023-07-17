@@ -21,13 +21,13 @@ const Header = _ => {
 
 	const showNavbar = () => {
 		navRef.current.classList.toggle(
-			"responsive_nav"
+			"Responsive_nav"
 		);
 	};
 
     return (
         <header>
-            <div className="header-top">
+            <div className="Header-top">
                 <div>
                     <img src={seguranca} alt="" />
                     <p>Compra <span> 100% segura </span></p>
@@ -46,10 +46,10 @@ const Header = _ => {
 
             <hr />
 
-            <div className="header-middle">
+            <div className="Header-middle">
                 <img src={logo} alt="" />
 
-                <div className="pesquisa">
+                <div className="Pesquisa">
                     <input 
                         placeholder="O que você está buscando?"
                         type="text"
@@ -76,7 +76,7 @@ const Header = _ => {
                 </a>
             </div>
 
-            <nav ref={navRef} className="nav">
+            <nav ref={navRef} className="Nav">
                 
                     <a href="#"> Todas Categorias </a>
                 
@@ -102,13 +102,13 @@ const Header = _ => {
                     </a>
                 </div>
 				<button
-					className="nav-btn nav-close-btn"
+					className="Nav-btn Nav-close-btn"
 					onClick={showNavbar}>
 					<FaTimes />
 				</button>
             </nav>
             <button
-				className="nav-btn"
+				className="Nav-btn"
 				onClick={showNavbar}>
 				<FaBars />
 			</button>

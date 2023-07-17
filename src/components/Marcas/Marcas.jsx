@@ -11,13 +11,13 @@ import 'swiper/css/navigation';
 const Marcas = props => {
 
     return (
-        <section className="marcas">
+        <section className="Marcas">
 
             <h2>
                 Navegue por marcas
             </h2>
 
-            <nav className="swiper-container-brand">
+            <nav className="Swiper-container-brand">
                 <Swiper
                     slidesPerView={5}
                     modules={[Navigation]}

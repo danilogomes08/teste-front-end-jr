@@ -1,32 +1,8 @@
 @import '../../Style';
 
-h1 {
-    max-width: 822px;
-    font-size: 3rem;
-    font-weight: 600;
-    color: $branco;
-    line-height: 72px;
-    margin-left: 90px;
-    @include device(800px) {
-        font-size: 2rem;
-        line-height: 30px;
-        text-align: center;
-        margin: 0 
-    }
-}
 
-.background p {
-    font-size: 2.25rem;
-    color: $branco;
-    margin-left: 90px;
-    @include device(800px) {
-        font-size: 2rem;
-        text-align: center;
-        margin: 20px 0 0 0
-    }
-}
 
-.background {
+.Background {
     background-image: url(../../img/promocoes.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,27 +14,50 @@ h1 {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0, 
         rgba(0, 0, 0, 0.9) 85.04%); 
     }
-}
-
-.background a {
-    max-width: 227px;
-    background-color: $rosa;
-    font-weight: 600;
-    font-size: 1,12rem;
-    color: $branco;
-    border-radius: 5px;
-    margin-left: 90px;
-    margin-top: 35px;
-    padding: 15px;
-    text-align: center;
-    cursor: pointer;
-    @include device(800px) {
-        margin: 10px auto;
-        width: 227px;
+    & p {
+        font-size: 2.25rem;
+        color: $branco;
+        margin-left: 90px;
+        @include device(800px) {
+            font-size: 2rem;
+            text-align: center;
+            margin: 20px 0 0 0
+        }
+    } 
+    & h1 {
+        max-width: 822px;
+        font-size: 3rem;
+        font-weight: 600;
+        color: $branco;
+        line-height: 72px;
+        margin-left: 90px;
+        @include device(800px) {
+            font-size: 2rem;
+            line-height: 30px;
+            text-align: center;
+            margin: 0 
+        }
+    }
+    & a {
+        max-width: 227px;
+        background-color: $rosa;
+        font-weight: 600;
+        font-size: 1,12rem;
+        color: $branco;
+        border-radius: 5px;
+        margin-left: 90px;
+        margin-top: 35px;
+        padding: 15px;
+        text-align: center;
+        cursor: pointer;
+        @include device(800px) {
+            margin: 10px auto;
+            width: 227px;
+        }
     }
 }
 
-.categorias {
+.Categorias {
     @include container;
     justify-content: space-between;
     margin: 34px auto 40px auto;

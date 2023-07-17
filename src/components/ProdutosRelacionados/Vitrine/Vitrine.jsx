@@ -29,7 +29,7 @@ const Vitrine = props => {
                 slidesPerView={4}
                 modules={[Navigation]}
                 navigation
-                className="swiper-container"
+                className="Swiper-container"
                 breakpoints={{
                     320: {
                       width: 320,
@@ -54,7 +54,7 @@ const Vitrine = props => {
                     key="item.productName"
   
                 >
-                    <div className="itemVintrine">
+                    <div className="ItemVintrine">
                         <h3>{item.productName}</h3>
                         <img src={item.photo} />
                         <p>{item.descriptionShort} </p>

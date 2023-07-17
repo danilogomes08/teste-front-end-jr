@@ -1,27 +1,32 @@
 @import '../../Style';
 
 
-.produtos-relacionados {
+.Produtos-relacionados {
     @include container;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
+    & h2 {
+        font-size: 1.87rem;
+        text-align: center;
+        color: $rosa;
+        font-weight: 700;
+    }
+    & nav {
+        @include container;
+        justify-content: center;
+        align-items: center;
+    }
+    & > a {
+        font-size: 0.93rem;
+        font-weight: 700;
+        color: $preto3;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
-.produtos-relacionados h2 {
-    font-size: 1.87rem;
-    text-align: center;
-    color: $rosa;
-    font-weight: 700;
-}
-
-.produtos-relacionados nav {
-    @include container;
-    justify-content: center;
-    align-items: center;
-}
-
-.sub-categorias {
+.Sub-categorias {
     flex: 1;
     flex-wrap: wrap;
     font-weight: 400;
@@ -34,23 +39,13 @@
     @include device(800px) {
         display: none;
     }
-}
-
-.sub-categorias a {
-    color: $preto2;
-    text-transform: uppercase;
-    transition: .2s ease-in-out;
-    &:hover {
-        font-weight: 700;
-        color: $rosa;
+    & a {
+        color: $preto2;
+        text-transform: uppercase;
+        transition: .2s ease-in-out;
+        &:hover {
+            font-weight: 700;
+            color: $rosa;
+        }
     }
 }
-
-.produtos-relacionados > a {
-    font-size: 0.93rem;
-    font-weight: 700;
-    color: $preto3;
-    text-align: center;
-    margin-bottom: 20px;
-}
-

@@ -1,7 +1,7 @@
 @import '../../../Style';
 
 
-.vitrine {
+.Vitrine {
     @include container;
     & h3 {
         font-size: 1rem;
@@ -16,7 +16,7 @@
     }
 }
 
-.swiper-container {
+.Swiper-container {
     @include vitrine(320px) {
         width: 320px;
     }
@@ -34,7 +34,7 @@
     }
 }
 
-.itemVintrine{
+.ItemVintrine{
     box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.22);
     padding: 15px;
     border-radius: 10px;

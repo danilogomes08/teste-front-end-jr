@@ -1,6 +1,6 @@
 @import '../../Style';
 
-.marcas {
+.Marcas {
     margin: 155px 0 104px 0;
     & h2 {
         margin-bottom: 60px;
@@ -9,19 +9,18 @@
         text-align: center;
         font-size: 1.87rem;
     }
-}
-
-.marcas nav {
-    @include container;
-    margin: 0 auto;
-    justify-content: space-between;
-    & div img {
-        display: block;
+    & nav {
+        @include container;
         margin: 0 auto;
+        justify-content: space-between;
+        & div img {
+            display: block;
+            margin: 0 auto;
+        }
     }
 }
 
-.swiper-container-brand {
+.Swiper-container-brand {
     @include vitrine(256) {
         width: 256;
     }

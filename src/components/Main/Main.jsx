@@ -14,7 +14,7 @@ const Main = _ => {
 
     return (
         <main>
-            <div className="background">
+            <div className="Background">
                 <div>
                     <h1> 
                         Venha conhecer nossas 
@@ -29,7 +29,7 @@ const Main = _ => {
                 </div>
             </div>
 
-            <section className="categorias">
+            <section className="Categorias">
                 <Categorias link="#" img={tecnologia} categoria="Teconogia"/>
                 <Categorias link="#" img={supermercados} categoria="Supermercado"/>
                 <Categorias link="#" img={bebidas} categoria="Bebidas"/>

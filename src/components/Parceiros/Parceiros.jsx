@@ -5,9 +5,9 @@ const Parceiros = props => {
 
     return (
 
-        <section className="parceiros">
+        <section className="Parceiros">
 
-            <div className="bg">
+            <div className="Bg">
                 <div>
                     <h2> 
                         Parceiros 
@@ -22,7 +22,7 @@ const Parceiros = props => {
                 </div>
             </div>  
 
-            <div className="bg">
+            <div className="Bg">
                 <div>
                     <h2> 
                         Parceiros 
