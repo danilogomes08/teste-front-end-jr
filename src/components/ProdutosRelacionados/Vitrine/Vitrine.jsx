@@ -24,7 +24,7 @@ const Vitrine = props => {
     return (
 
                 
-        <div className="vitrine">
+        <div className="Vitrine">
             <Swiper
                 slidesPerView={4}
                 modules={[Navigation]}

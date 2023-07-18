@@ -5,7 +5,7 @@ const Categorias = props => {
 
     return (
 
-            <div class="categoria">
+            <div class="Categoria">
                 <div>
                     <img src={props.img} alt="" />
                 </div>
